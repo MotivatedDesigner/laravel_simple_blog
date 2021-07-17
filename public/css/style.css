@@ -5626,7 +5626,7 @@ object {
   align-items: center;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 .site-header .mobile-sidebar-menu {
   display: none;
@@ -6320,7 +6320,7 @@ object {
     [ ## Links ]
 */
 a {
-  color: inherit;
+  color: rgba(255, 255, 255, 0.678);
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
