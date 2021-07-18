@@ -45,7 +45,7 @@
 
 </head>
 <body>
-  <div id="app" class="site-content">
+  <div class="site-content">
     @include('components.header')
     <main>
       @yield('content')
