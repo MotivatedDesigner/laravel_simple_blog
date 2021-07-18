@@ -98,12 +98,15 @@
               </div><!-- /.menu-wrapper -->
             </nav>
             <div class="header-right-area mainmenu">
-              @guest
-                <li><a href="{{ route('login') }}" class="@if (Route::is('login')) active @endif">{{ __('Login') }}</a></li>
-                <li><a href="{{ route('register') }}" class="@if (Route::is('register')) active @endif">{{ __('Register') }}</a></li>
-              @else
-                <li><a>{{ Auth::user()->name }}</a></li>
-              @endguest
+              <div class="d-flex" style="gap:16px;list-style: none;">
+                @guest
+                  <li><a href="{{ route('login') }}" class="@if (Route::is('login')) active @endif">{{ __('Login') }}</a></li>
+                  <li><a href="{{ route('register') }}" class="@if (Route::is('register')) active @endif">{{ __('Register') }}</a></li>
+                @else
+                  <li><a>{{ Auth::user()->name }}</a></li>
+                  <li><a>{{ __('Logout') }}</a></li>
+                @endguest
+              </div>
               <div class="hamburger-menus">
                 <span></span>
                 <span></span>

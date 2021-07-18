@@ -101,6 +101,10 @@ Version: 1.0
 	[ ## Widgets Content ]
 # Footer
 --------------------------------------------------------------*/
+/*Custom*/
+.header-right-area a{
+  color:rgba(255, 255, 255, 0.678);
+}
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -6320,7 +6324,7 @@ object {
     [ ## Links ]
 */
 a {
-  color: rgba(255, 255, 255, 0.678);
+  color: inherit;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
@@ -9616,7 +9620,7 @@ body.sidemenu-active #pp-nav.right {
 .features-block.style-two > div {
   position: relative;
 }
-@media only screen and (max-width: 1620px) {
+@media only screen and (max-width: 767px) {
   .features-block.style-two > div {
     display: none;
   }

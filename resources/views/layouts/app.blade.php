@@ -47,9 +47,7 @@
 <body>
   <div class="site-content">
     @include('components.header')
-    <main>
-      @yield('content')
-    </main>
+    @yield('content')
     @include('components.footer')
   </div>
 </body>

@@ -48,7 +48,7 @@
             <div class="entry-thumb">
               <figure class="thumb-wrap">
                 <a href="single-post.html">
-                  <img src="assets/images/post/slider/two/post1.jpg" alt="post" />
+                  <img src="{{asset ('images/post/slider/two/post1.jpg')}}" alt="post" />
                 </a>
               </figure>
               <!--./ thumb-wrap -->
