@@ -4,37 +4,37 @@
       <ul id="instafeed">
         <li class="feed-item">
           <a href="#">
-            <img src="assets/images/widget/instagram/2/1.jpg" alt="#">
+            <img src="{{asset('images/widget/instagram/2/1.jpg')}}" alt="#">
             <div class="overlay"><i class="fab fa-instagram"></i></div>
           </a>
         </li>
         <li class="feed-item">
           <a href="#">
-            <img src="assets/images/widget/instagram/2/2.jpg" alt="#">
+            <img src="{{asset('images/widget/instagram/2/2.jpg')}}" alt="#">
             <div class="overlay"><i class="fab fa-instagram"></i></div>
           </a>
         </li>
         <li class="feed-item">
           <a href="#">
-            <img src="assets/images/widget/instagram/2/3.jpg" alt="#">
+            <img src="{{asset('images/widget/instagram/2/3.jpg')}}" alt="#">
             <div class="overlay"><i class="fab fa-instagram"></i></div>
           </a>
         </li>
         <li class="feed-item">
           <a href="#">
-            <img src="assets/images/widget/instagram/2/4.jpg" alt="#">
+            <img src="{{asset('images/widget/instagram/2/4.jpg')}}" alt="#">
             <div class="overlay"><i class="fab fa-instagram"></i></div>
           </a>
         </li>
         <li class="feed-item">
           <a href="#">
-            <img src="assets/images/widget/instagram/2/5.jpg" alt="#">
+            <img src="{{asset('images/widget/instagram/2/5.jpg')}}" alt="#">
             <div class="overlay"><i class="fab fa-instagram"></i></div>
           </a>
         </li>
         <li class="feed-item">
           <a href="#">
-            <img src="assets/images/widget/instagram/2/6.jpg" alt="#">
+            <img src="{{asset('images/widget/instagram/2/6.jpg')}}" alt="#">
             <div class="overlay"><i class="fab fa-instagram"></i></div>
           </a>
         </li>

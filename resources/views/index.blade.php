@@ -13,6 +13,10 @@
             @include('components.featuredPost')  
             @include('components.masonryPosts')  
           </main>
+          @include('components.pagination')  
+        </div>
+        <div class="col-lg-4">
+          @include('components.sidebar')  
         </div>
       </div>
     </div>
